@@ -1,0 +1,78 @@
+body, body>* {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+.logo{
+    height: 52px;
+}
+.first{
+    font-size: 22px;
+    color: #df123c!important;
+}
+.first::first-letter{
+    font-size: 32px;    
+}
+.second{
+    font-size: 22px;
+    color: #df123c!important;
+}
+.second::first-letter{
+    font-size: 32px;    
+    
+}
+.d-flex>img{
+    margin: 6px;
+}
+.d-flex>img:hover{
+    cursor: pointer;
+}
+.nav-item{
+    color: white!important;
+}
+.heading>h1{
+    margin-top: 32px;
+}
+.grids{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+.main-grid{
+    flex: 2;
+    flex-basis: 400px;
+    min-height: 300px;
+    margin: 6px;
+}
+.side-grid{
+    flex: 1;
+    flex-basis: 200px;
+    margin: 6px;
+    min-height: 300px;    
+}
+.card-img-top{
+    max-height: 24em;
+    min-height: 20em;
+    background-position: center;
+    background-size: cover;    
+    background-image: url(https://images.unsplash.com/photo-1436891436013-5965265af5fc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c7dbbae22c460b4d630921586424d242&auto=format&fit=crop&w=1500&q=80)
+}
+.fa-calendar-alt,.fa-user{
+    font-size: 24px;
+    color: #28a745;
+    margin: 0 4px 0 4px;
+}
+.list-group-item>a{
+    color: #28a745!important;
+}
+.list-group-item{
+    background-color: #f9f9f9!important;  
+}
+.nav-item{
+    color: #c0bfbf!important;
+    margin-right: 6px;
+}
+/* Write all your CSS here! */
